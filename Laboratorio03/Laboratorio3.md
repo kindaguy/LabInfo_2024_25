@@ -30,7 +30,7 @@ Modificare il programma che calcola la media di valori interi (soluzione dell'Es
 
 ## Esercizio 5
 Modificare il programma al punto precedente considerando come segue:
-1. Chiedere all'utente quanti voti vuole inserire e registrare il valore in una variabile intera __nvoti__. Imporre che il valore letto appartenga all'insieme [18,19,...,30], ovvero continuare a chiedere all'utente di inserire il numero di voti fino a che non inserisce un valore valido.
+1. Chiedere all'utente quanti voti vuole inserire e registrare il valore in una variabile intera __nvoti__. Imporre che il valore letto appartenga al range [18,19,...,30], ovvero continuare a chiedere all'utente di inserire il numero di voti fino a che non inserisce un valore valido.
 
 Notate che a questo punto sappiamo quanti voti dovranno essere caricati.
 
