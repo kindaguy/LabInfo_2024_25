@@ -45,7 +45,7 @@ Modificare il programma scritto nell'esercizio 5 nel seguente modo:
 
 1. Dichiarare un vettore di 30 interi. 
 
-2. Chiedere all'utente quanti voti vuole inserire, controllando che il _numero di voti_ sia $1\leq$__nvoti__$\leq 30$ 
+2. Chiedere all'utente quanti voti vuole inserire, controllando che il _numero di voti_ sia nel range [18,19,...30]. 
 
 3. Registrare i voti _validi_ inseriti nel vettore fino a quando l'utente termina l'inserimento dei voti.
 
