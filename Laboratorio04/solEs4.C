@@ -14,6 +14,8 @@ int vettInv[DIMVETT];
 
 int appo;
 int conta=0;
+bool cond = true;
+int quanti =0;
 
 //Acquisisco dati
    cout << endl << "Inserire valore intero (zero per terminare):";
@@ -45,5 +47,31 @@ int conta=0;
     }
 
 
+   cond = true;
+   quanti = 0;
+
+   while(cond and quanti < conta){
+      //confronta la componente successiva dei due vettori
+      if(vett[quanti] != vettInv[quanti]) {//se sono diverse, registra anomalia
+      
+         cond = false;
+      }
+      //altimenti non fare nulla
+      
+      quanti++; //e comunque passa alla componente successiva 
+
+   }
+
+   //Esco dal ciclo: in quale condizione???
+   //Se in uscita dal ciclo cond e`  true allora la sequenza e`  palindroma
+   if(cond){
+      cout <<endl <<" la sequenza e` palindroma" << endl;
+   }
+   else{
+      cout <<endl <<" la sequenza NON e` palindroma" << endl;
+
+   }
+
+   
    return 0;
 }
