@@ -14,6 +14,9 @@ int main(){
    float valore;
 
 
+   //Leggo estremi intervallo e definisco intervallo
+   //ben formato.
+
    cout << endl <<"inserire estremi intervallo: ";
    cin >> a >> b;
    if(a<=b){
@@ -26,6 +29,7 @@ int main(){
    }
    //Arrivati qui [minimo,massimo] e` un intervallo ben formato.
 
+   //Chiamo funzione per leggere valore valido.
    valore = leggiValido(minimo,massimo);
 
    cout << endl << "Valore valido: " << valore << endl;
@@ -39,6 +43,7 @@ int main(){
 float leggiValido(float min,float max){
    
    float val;
+   
    //Leggo valore
    do{
       cout << " Inserire valore nel range [" << min << "," << max <<"]" << endl;
