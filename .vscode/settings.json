@@ -10,6 +10,7 @@
       "solEs2 copy.C": "cpp",
       "solEs2_ext.C": "cpp",
       "solEs8.C": "cpp",
-      "solEs6.C": "cpp"
+      "solEs6.C": "cpp",
+      "solEs3_4.C": "cpp"
    }
 }
