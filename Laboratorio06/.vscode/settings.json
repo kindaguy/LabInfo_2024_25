@@ -1,6 +1,10 @@
 {
    "files.associations": {
       "solEs1.C": "cpp",
-      "primerFileIn.C": "cpp"
+      "primerFileIn.C": "cpp",
+      "primerFileOut.C": "cpp",
+      "solEs8.C": "cpp",
+      "solEs1 copy.C": "cpp",
+      "solEs1_alt.C": "cpp"
    }
 }
