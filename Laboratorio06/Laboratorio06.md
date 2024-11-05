@@ -6,9 +6,9 @@ Scrivere una funzione
 
 __int findElArray(int v[], int used, int val)__
 
- che, ricevuto in ingresso un array di interi (__int v[]__), il numero di dati (interi) in esso contenuto (__int used__) e  un valore intero da cercare (__int val__), restituisca la posizione della prima occorrenza di __val__ nell'array. Se il valore __val__ non c'è nell'array, la funzione deve restituire il valore -1.
+ che, ricevuto in ingresso un array di interi (__int v[]__), il numero di dati in esso contenuto (__int used__) e  un valore intero da cercare (__int val__), restituisca la posizione della prima occorrenza di __val__ nell'array. Se il valore __val__ non c'è nell'array, la funzione deve restituire il valore -1.
 
-__NOTA__: la funzione restituisce comunque un intero. Se il valore restituito è positivo, allora potrà essere interpretato come la posizione dell'elemento cerecato; se negativo, allora il valore restituito indicherà una condizione di "errore" (elemento non presente).
+__NOTA__: la funzione restituisce comunque un intero. Se il valore restituito è positivo, allora potrà essere interpretato come la posizione dell'elemento cercato; se negativo, allora il valore restituito indicherà una condizione di "errore" (elemento non presente).
 
 __SUGGERIMENTO__: per testare il funzionamento della funzione, dicharate nel main un array tipo:
 
@@ -28,20 +28,21 @@ ed effetturare la cancellazione dell'elemento in posizione __pos__ tramite __swa
 - il valore -1 se __pos__ è fuori range (e magari stampare una stampa del tipo "Posizione fuori range!). In questo caso sarà compito della funzione chiamante capire che qualcosa è andato storto.
 
 # Esercizio 3
-Scrivere un programma che, usando le funzioni __findElArray__ e __delElSwap__ definite negli esercizi precedenti, elimini tutti i valori pari nell'array 
+Scrivere un programma che, usando le funzioni __findElArray__ e __delElSwap__ definite negli esercizi precedenti, elimini tutti i valori __pari__ (ovvero tali che __dati[i]%2 ==0__) nell'array 
 
 __int dati[] = {0,1,2,3,4,5,6,7,8,9}__
 
 NOTE:
 - assumiamo il valore zero come pari
-- prestate attenzione a quello che fate dopo aver rimosso un elemento dall'array: quale elemento controllate al passaggio successivo?
+- attenzione che la lunghezza dell'array (__used__) diminuisce dopo ogni eliminazione.
+- prestate attenzione a quello che fate dopo aver rimosso un elemento dall'array: il valore eliminato viene sostituito da un altro valore dell'array, che deve essere controllato...
 
 # Esercizio 4
 Scrivete una funzione __deleteElShift__ che elimini l'elemento in posizione __int pos__ in un vettore __int v[]__ di interi contenente __int used__ dati. La funzione dovrà avere signature
 
 __int deleteElShift(int v[], int used, int pos)__
 
-ed effetturare la cancellazione dell'elemento in posizione __pos__ tramite _shift_ a sx di una posizione di tutti gli elementi a dx dell'elemento eliminato. La funzione dovrà restituire un valore intero, come specificato per la funzione __deleteElSwap__ definita nell'elercizio 2. 
+ed effetturare la cancellazione dell'elemento in posizione __pos__ tramite _shift_ a sx di una posizione di tutti gli elementi a dx dell'elemento eliminato. La funzione dovrà restituire un valore intero, come specificato per la funzione __deleteElSwap__ definita nell'Esercizio 2. 
 
 
 ## Esercizio 5 (Ciclo Spoletini)
@@ -56,6 +57,10 @@ Ricordatevi che uno stream va chiuso quando non serve più (con l'istruzione __.
 Scrivere un programma che, dopo aver contato il numero di dati presenti nel fle __dati.dat__ (vedi Esercizio 5), li carichi in un __float dati[20]__. SPOILER ALERT: i dati presenti nel file sono 10, quindi in un vettore di 20 elementi ci stanno.
 
 Fatto questo, calcolare la media e la deviazione standard del campione, usando ovviamente le funzioni definite nei laboratori precedenti. Determinare anche il massimo e il minimo elemento del vettore dei dati.
+
+NOTA: non abbiamo discusso insieme come determinare il valore massimo (minimo) di un array. È vostro compito trovare  un algoritmo.
+
+SUGGERIMENTO (per massimo, ma considerazioni simili possono essere fatte per il minimo): possiamo inizialmente considerare il primo elemento dell'array (__max = dati[0]__) come valore massimo; poi possiamo scorrere il resto dell'array (__dati[i]__,  i=1,2,...,__used-1__) confrontando l'attuale massimo con l'elemento ispezionato, e se necessario (__dati[i]>max__) aggiornare il massimo (__max = dati[i]__).
 
 Salvare i risultati dell'analisi statistica (descrittiva), ovvero, media, deviazione standard, minimo e massimo, nel file __statistiche.dat__, corredati da opportune didascalie.
 
