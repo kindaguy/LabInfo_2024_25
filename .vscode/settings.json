@@ -11,6 +11,15 @@
       "solEs2_ext.C": "cpp",
       "solEs8.C": "cpp",
       "solEs6.C": "cpp",
-      "solEs3_4.C": "cpp"
+      "solEs3_4.C": "cpp",
+      "coutCharOcc.C": "cpp",
+      "countCharOcc.C": "cpp",
+      "eliminaEl.C": "cpp",
+      "findMaxMin.C": "cpp",
+      "findMaxMin copy.C": "cpp",
+      "selectionSort.C": "cpp",
+      "eliminaPari.C": "cpp",
+      "solEs1_alt.C": "cpp",
+      "eliminaEl copy.C": "cpp"
    }
 }
