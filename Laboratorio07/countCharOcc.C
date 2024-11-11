@@ -58,7 +58,7 @@ int main(){
 
    appo = file_in.get();
    while(!file_in.eof()){
-      counts[(int) appo]++;
+      counts[ appo]++;
       appo = file_in.get();
    }
    //I caratteri con codifica tra 0 e 31 sono caratteri di "escape" che hanno una funzione particolare
