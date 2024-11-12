@@ -34,9 +34,9 @@ ATTENZIONE: d[k] indica il k-esimo elemento del campione, non la posizione nel v
 - Il valore della mediana.
 
 # Esercizio 3
-Il file __punti.dat__ contiene un numero non precisato, ma minore  di 30, di coordinate di punti sul piano cartesiano. In particolare, su ogni riga del file sono indicate l'ascissa e l'ordinata di un punto come valori razionali in singola precisione
+Il file __punti.dat__ contiene un numero non precisato, ma minore  di 50, di coordinate di punti sul piano cartesiano. In particolare, su ogni riga del file sono indicate l'ascissa e l'ordinata di un punto come valori razionali in singola precisione
 
-Predisposti due vettori __float ascisse[30]__ e __float ordinate[30]__:
+Predisposti due vettori __float ascisse[50]__ e __float ordinate[50]__:
 
 1- Contare in numero di punti descritti nel file.
 2- Caricare le ascisse e le ordinate dei punti rispettivamente nel vettore __ascisse__ e __ordinate__.
