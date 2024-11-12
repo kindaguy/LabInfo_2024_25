@@ -70,7 +70,8 @@ Il file __dati_header.dat__ è come segue formato:
 - il primo valore nel file è un intero, che indica il numero, chiamiamolo _n_ di dati (di tipo __float__) che seguono;
 - seguono  _n_ dati di tipo __float__.
 
-Scrivere un programma che carichi i dati in un vettore __float dati[20]__.
+
+Scrivere un programma che carichi i dati in un vettore __float dati[120]__ (i dati sono 100..., quindi ci stanno larghi).
 
 NOTA: a differenza dell'Esercizio 6, in questo esercizio la numerosità del campione è nota una volta letto il primo dato presente sul file, ovvero _n_. Non è quindi necessario, in questo caso, procedere con un conteggio prima di caricare i dati.
 
