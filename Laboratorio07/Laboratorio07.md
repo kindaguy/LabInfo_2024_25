@@ -1,4 +1,4 @@
-# Laboratorio 7: Caricamento a analisi dati. Analisi statistica di un testo.
+# Laboratorio 7: Caricamento e analisi dati. Ordinamento array. Analisi statistica di un testo.
 
 # Esercizio 1 (warm up)
 
