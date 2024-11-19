@@ -20,6 +20,11 @@
       "selectionSort.C": "cpp",
       "eliminaPari.C": "cpp",
       "solEs1_alt.C": "cpp",
-      "eliminaEl copy.C": "cpp"
+      "eliminaEl copy.C": "cpp",
+      "inter.C": "cpp",
+      "resetStream1.C": "cpp",
+      "resetStream1 copy.C": "cpp",
+      "resetStream2.C": "cpp",
+      "puntatori.C": "cpp"
    }
 }

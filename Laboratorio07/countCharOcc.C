@@ -26,6 +26,7 @@ int main(){
    int counts_used = 0;
    int pos_max_occ;
    char appo;
+   int total = 0;
 
    ifstream file_in;
 
@@ -60,6 +61,7 @@ int main(){
    while(!file_in.eof()){
       counts[ appo]++;
       appo = file_in.get();
+      cout << endl << "letto:" << (int) appo << endl;
    }
    //I caratteri con codifica tra 0 e 31 sono caratteri di "escape" che hanno una funzione particolare
    //Non li stampiamo, ma se volete vederli basta modificare il punto di inizio del ciclo a i=0;
@@ -79,6 +81,14 @@ int main(){
    pos_max_occ = findMaxRange(counts,65,122);
 
    cout << endl << "Il carattere alfabetico (no spazi e simboli di punteggiatura) con maggiori occorrenze è: " << (char) pos_max_occ << " con " << counts[pos_max_occ] << " occorrenze" << endl;
+
+   cout << endl << "Occorrenze a-capo" << counts[13] << endl;
+
+   cout << endl << "Occorrenze line-feed " << counts[10] << endl;
+
+   for(int i=0; i<NCHARS; i++) total += counts[i];
+
+   cout << endl << "Numero di caratteri letto: " << total << endl;
 
    return 0;
 }
