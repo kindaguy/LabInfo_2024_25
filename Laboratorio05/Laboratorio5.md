@@ -1,4 +1,4 @@
-# Laboratorio 4: funzioni, semplici operazioni su array
+# Laboratorio 5: funzioni, semplici operazioni su array
 
 ## Intro
 
