@@ -25,6 +25,8 @@
       "resetStream1.C": "cpp",
       "resetStream1 copy.C": "cpp",
       "resetStream2.C": "cpp",
-      "puntatori.C": "cpp"
+      "puntatori.C": "cpp",
+      "solEs5_6.C": "cpp",
+      "primerFileIn.C": "cpp"
    }
 }

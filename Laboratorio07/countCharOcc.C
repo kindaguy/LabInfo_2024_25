@@ -17,6 +17,7 @@ int findMaxRange(int v[],int ind_min, int ind_max);
 
 
 
+
 int main(){
 
    //Ricordiamo che i caratteri sono codificati su 8 bit (1 byte).
@@ -123,3 +124,4 @@ int findMaxRange(int v[],int ind_min, int ind_max){
 
 
 }
+

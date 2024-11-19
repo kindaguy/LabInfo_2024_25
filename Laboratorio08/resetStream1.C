@@ -8,17 +8,17 @@ void stampaVettInt(int v[], int used);
 int main(){
 
 
-   ifstream file_in;
+   ifstream file_in; 
    int appo;
    int conta = 0;
    
-   int *vint = NULL;
+   int *vint;
    int vint_size = 0;
    int vint_used = 0;
    
    //nomefile è una stringa (vettore costante di caratteri)
    const char nomefile[] = "dati_int.dat";
-
+   //{'d','a',....,'t','\0'}
    //Apro stream su file
    file_in.open(nomefile);
    if(file_in.fail()){
@@ -73,6 +73,9 @@ int main(){
    vint = NULL;
    vint_size = 0;
    vint_used = 0;
+
+
+
    
    
    return 0;
