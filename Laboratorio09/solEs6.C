@@ -45,6 +45,6 @@ int main(){
       fin >> a1.raw[i];
       a1.used++;
    }
-   
+   //a1.used = conta;
    return 0;
 }
