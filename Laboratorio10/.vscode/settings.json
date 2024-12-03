@@ -1,5 +1,7 @@
 {
    "files.associations": {
-      "sorting.C": "cpp"
+      "sorting.C": "cpp",
+      "driver.C": "cpp",
+      "libZero.C": "cpp"
    }
 }
