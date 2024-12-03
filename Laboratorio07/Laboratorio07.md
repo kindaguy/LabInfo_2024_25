@@ -49,7 +49,7 @@ Stampare i risultati dei punti 3 e 4 sul file __res_punti.dat__. Stampare sullo 
 
 # Esercizio 4
 
-Il file __dc_inf_1.txt__ contiene il primo canto dell'Inferno di Dante. Si tratta di un normalissimo file, a parte il contenuto che è, per i nostri standard...un po` "anomalo".
+Il file __dc_inf_1.txt__ contiene un estratto del celebre De finibus bonorum et malorum (I,32-33) di Cicerone. In effetti il testo originale (I Canto Inferno di Dante) conteneva caratteri non ASCII, quindi era un input "sbagliato" per i nostri fini: scusate. Si tratta di un normalissimo file, a parte il contenuto che è, per i nostri standard...un po` "anomalo".
 
 L'obiettivo finale di questo esercizio sarà quello di fare dei conteggi sulle occorrenze dei diversi caratteri, con particolare attenzione a quelli alfabetici.
 
