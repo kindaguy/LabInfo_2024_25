@@ -28,6 +28,9 @@
       "puntatori.C": "cpp",
       "solEs5_6.C": "cpp",
       "primerFileIn.C": "cpp",
-      "esempioReference.C": "cpp"
+      "esempioReference.C": "cpp",
+      "sorting.C": "cpp",
+      "libSortingTama.C": "cpp",
+      "driver.C": "cpp"
    }
 }
