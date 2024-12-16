@@ -1,0 +1,10 @@
+{
+   "files.associations": {
+      "outOp.C": "cpp",
+      "randNoSeed.C": "cpp",
+      "randNoSeed copy.C": "cpp",
+      "randSeed copy.C": "cpp",
+      "randWithSeed.C": "cpp",
+      "modificatoriStampa.C": "cpp"
+   }
+}

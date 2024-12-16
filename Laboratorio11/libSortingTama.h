@@ -41,7 +41,18 @@ Con il costrutto #ifndef ... #define ... #endif, si impedisce che questo
 possa accadere: la prima volta che #include ... viene eseguita
 la costante (qui LIBSORTINGTAMA_H) viene definita; qualsiasi altra chiamata
 di #include "..." troverebbe la costante definita e quindi non includerà 
-le dichiarazioni delle funzioni. 
+le dichiarazioni delle funzioni, nè la dicharazione di tipi di dato (per esempio
+t-uple). Notate che, mentre la DICHIARAZIONE ripetuta di una funzione
+non porta ad errori di compilazione, la definizione ripetuta di un tipo di 
+dato (noi lo sappiamo fare solo con il costrutto struct per le tuple, ma
+esistono altri modi) si`. Considerato che la definizione dei 
+tipi di dato "della libreria" di fa nel .h, l'uso de; costrusso di "guard" 
+#ifndef... previene l'occorrenza di questi errori.
+
+Inoltre, si evita:
+-di includere piu` volte lo stesso .h in caso di include incrociati
+-di entrare in loop infiniti di include che potrebbero occorrere se
+lib1.h include lib2.h e lib2.h include lib1.
 
 REGOLA: usate il costrutto in ogni .h delle vostre librerie: vi eviterete
 un sacco di grattacapi.
