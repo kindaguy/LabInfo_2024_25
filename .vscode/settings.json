@@ -31,6 +31,10 @@
       "esempioReference.C": "cpp",
       "sorting.C": "cpp",
       "libSortingTama.C": "cpp",
-      "driver.C": "cpp"
+      "driver.C": "cpp",
+      "libPuntoR2.C": "cpp",
+      "libStatistica.C": "cpp",
+      "provaStampePuntoR2.C": "cpp",
+      "outOp.C": "cpp"
    }
 }

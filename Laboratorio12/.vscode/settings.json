@@ -5,6 +5,10 @@
       "randNoSeed copy.C": "cpp",
       "randSeed copy.C": "cpp",
       "randWithSeed.C": "cpp",
-      "modificatoriStampa.C": "cpp"
+      "modificatoriStampa.C": "cpp",
+      "libCaso.C": "cpp",
+      "driverEs1.C": "cpp",
+      "solEs2.C": "cpp",
+      "libPuntoR2.C": "cpp"
    }
 }

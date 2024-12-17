@@ -3,7 +3,7 @@
 //Questa libreria contiene modificatori di stampa,
 //che consentono una formattazione, piu` o meno fine,
 //delle stampe
-
+#include <iomanip>
 using namespace std;
 
 int main(){
@@ -21,7 +21,7 @@ int main(){
 
    //Stampo ogni valore su un campo di 10 caratteri, allineando a dx
    //Stampa con modificatori   
-   cout << endl << "Stampa allineata (a sx): " << endl;
+   cout << endl << "Stampa allineata (a dx): " << endl;
    cout << setw(10) << a << setw(10) << b << endl;
    cout << setw(10) << c << setw(10) << d << endl;
 
